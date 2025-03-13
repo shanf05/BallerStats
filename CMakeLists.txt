@@ -16,3 +16,7 @@ target_link_libraries(BallerStats Qt5::Widgets)
 set_target_properties(BallerStats PROPERTIES
     RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/../bin"
 )
+
+#für compile commands und auto completion
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
