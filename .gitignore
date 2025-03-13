@@ -1,0 +1,4 @@
+*.log         # Ignoriert alle .log-Dateien
+*.o           # Ignoriert alle .o-Dateien
+*.exe         # Ignoriert alle .exe-Dateien
+/build/       # Ignoriert das build-Verzeichnis
